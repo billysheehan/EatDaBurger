@@ -1,7 +1,7 @@
 {
-  "name": "eat-da-burger",
+  "name": "burger",
   "version": "1.0.0",
-  "description": "Homework #14",
+  "description": "Eat a burger - Node/Express/Handlebars Homework",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,19 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yoonslee/EatDaBurger.git"
+    "url": "git+https://github.com/robinb242/burger.git"
   },
-  "author": "Yoon Lee",
+  "keywords": [
+    "handlebars-helper-css"
+  ],
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yoonslee/EatDaBurger/issues"
+    "url": "https://github.com/robinb242/burger/issues"
   },
-  "homepage": "https://github.com/yoonslee/EatDaBurger#readme",
+  "homepage": "https://github.com/robinb242/burger#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.8",
-    "mysql": "^2.13.0"
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "*"
+  }
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
   }
 }
