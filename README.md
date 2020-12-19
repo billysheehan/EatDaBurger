@@ -2,6 +2,7 @@
 # Technology Used
 HTML
 CSS
+Handlebars
 Javascript
 MySQL
 # Use
